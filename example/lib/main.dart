@@ -6,7 +6,7 @@ import 'package:google_place/google_place.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await DotEnv().load('.env');
+  await DotEnv().load(fileName: '.env');
   runApp(MyApp());
 }
 
