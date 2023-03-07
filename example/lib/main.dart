@@ -6,7 +6,7 @@ import 'package:google_place/google_place.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await DotEnv().load(fileName: '.env');
+  await dotenv.load(fileName: ".env");
   runApp(MyApp());
 }
 
@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    String apiKey = DotEnv().env['API_KEY'];
+    String apiKey = dotenv.env['API_KEY'];
     googlePlace = GooglePlace(apiKey);
     super.initState();
   }
