@@ -1,4 +1,4 @@
-import 'package:google_place/src/models/lat_lon.dart';
+import 'package:google_places/src/models/lat_lon.dart';
 
 /// [Locationbias] - Prefer results in a specified area, by specifying either a radius plus lat/lng,
 /// or two lat/lng pairs representing the points of a rectangle.

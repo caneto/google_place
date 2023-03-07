@@ -1,7 +1,7 @@
-import 'package:google_place/src/models/geometry.dart';
-import 'package:google_place/src/models/opening_hours.dart';
-import 'package:google_place/src/models/photo.dart';
-import 'package:google_place/src/models/plus_code.dart';
+import 'package:google_places/src/models/geometry.dart';
+import 'package:google_places/src/models/opening_hours.dart';
+import 'package:google_places/src/models/photo.dart';
+import 'package:google_places/src/models/plus_code.dart';
 
 class SearchResult {
   /// [geometry] contains geometry information about the result,

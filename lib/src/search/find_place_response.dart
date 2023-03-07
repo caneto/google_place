@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:google_place/src/models/debug_log.dart';
-import 'package:google_place/src/search/search_candidate.dart';
+import 'package:google_places/src/models/debug_log.dart';
+import 'package:google_places/src/search/search_candidate.dart';
 
 /// The Find Place Search response contains html Attributions and search results and status
 class FindPlaceResponse {

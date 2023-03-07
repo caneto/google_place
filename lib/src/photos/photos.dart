@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:google_place/src/utils/network_utility.dart';
+import 'package:google_places/src/utils/network_utility.dart';
 
 class Photos {
   static final _authority = 'maps.googleapis.com';

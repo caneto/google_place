@@ -1,5 +1,5 @@
-import 'package:google_place/src/models/northeast.dart';
-import 'package:google_place/src/models/southwest.dart';
+import 'package:google_places/src/models/northeast.dart';
+import 'package:google_places/src/models/southwest.dart';
 
 class Viewport {
   final Northeast? northeast;

@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:google_place/google_place.dart';
+import 'package:google_places/google_places.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,13 +29,13 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  GooglePlace googlePlace;
+  GooglePlaces googlePlace;
   List<AutocompletePrediction> predictions = [];
 
   @override
   void initState() {
     String apiKey = dotenv.env['API_KEY'];
-    googlePlace = GooglePlace(apiKey);
+    googlePlace = GooglePlaces(apiKey);
     super.initState();
   }
 
@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
 
 class DetailsPage extends StatefulWidget {
   final String placeId;
-  final GooglePlace googlePlace;
+  final GooglePlaces googlePlace;
 
   DetailsPage({Key key, this.placeId, this.googlePlace}) : super(key: key);
 
@@ -141,7 +141,7 @@ class DetailsPage extends StatefulWidget {
 
 class _DetailsPageState extends State<DetailsPage> {
   final String placeId;
-  final GooglePlace googlePlace;
+  final GooglePlaces googlePlace;
 
   _DetailsPageState(this.placeId, this.googlePlace);
 

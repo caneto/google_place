@@ -1,4 +1,4 @@
-import 'package:google_place/google_place.dart';
+import 'package:google_places/google_places.dart';
 import 'package:http/http.dart' as http;
 
 /// The Network Utility
@@ -9,7 +9,7 @@ class NetworkUtility {
   }) async {
     try {
       final response =
-          await http.get(uri, headers: headers).timeout(GooglePlace.timeout);
+          await http.get(uri, headers: headers).timeout(GooglePlaces.timeout);
       if (response.statusCode == 200) {
         return response.body;
       }

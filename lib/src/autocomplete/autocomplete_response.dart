@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:google_place/src/autocomplete/autocomplete_prediction.dart';
+import 'package:google_places/src/autocomplete/autocomplete_prediction.dart';
 
 /// The Autocomplete response contains place predictions and status
 class AutocompleteResponse {

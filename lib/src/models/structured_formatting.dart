@@ -1,4 +1,4 @@
-import 'package:google_place/src/models/main_text_matched_substring.dart';
+import 'package:google_places/src/models/main_text_matched_substring.dart';
 
 class StructuredFormatting {
   /// [mainText] contains the main text of a prediction, usually the name of the place.

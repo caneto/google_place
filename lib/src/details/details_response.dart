@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:google_place/src/details/details_result.dart';
+import 'package:google_places/src/details/details_result.dart';
 
 /// The Details response contains html Attributions and details and status
 class DetailsResponse {

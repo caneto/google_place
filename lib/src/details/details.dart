@@ -1,6 +1,6 @@
-import 'package:google_place/google_place.dart';
-import 'package:google_place/src/details/details_response.dart';
-import 'package:google_place/src/utils/network_utility.dart';
+import 'package:google_places/google_places.dart';
+import 'package:google_places/src/details/details_response.dart';
+import 'package:google_places/src/utils/network_utility.dart';
 
 class Details {
   static final _authority = 'maps.googleapis.com';

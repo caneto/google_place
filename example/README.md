@@ -1,6 +1,6 @@
 # example
 
-An example for **_goole_place_** package.
+An example for **_goole_places_** package.
 
 ## Preview
 

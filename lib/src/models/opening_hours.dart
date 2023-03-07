@@ -1,4 +1,4 @@
-import 'package:google_place/src/models/period.dart';
+import 'package:google_places/src/models/period.dart';
 
 class OpeningHours {
   /// [openNow] is a boolean value indicating if the place is open at the current time.

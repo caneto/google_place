@@ -1,6 +1,6 @@
-import 'package:google_place/src/models/matched_substring.dart';
-import 'package:google_place/src/models/structured_formatting.dart';
-import 'package:google_place/src/models/term.dart';
+import 'package:google_places/src/models/matched_substring.dart';
+import 'package:google_places/src/models/structured_formatting.dart';
+import 'package:google_places/src/models/term.dart';
 
 class AutocompletePrediction {
   /// [description] contains the human-readable name for the returned result. For establishment results, this is usually
