@@ -10,7 +10,7 @@ An example for **_goole_place_** package.
 
 - Details page
 
-  ![Details page](images/details_page.png)
+  ![Details page](images/detail_page.png)
 
 ## Getting Started
 
