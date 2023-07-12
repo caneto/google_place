@@ -4,10 +4,10 @@ version: 0.4.8+1
 homepage: https://github.com/bazrafkan/google_places
 
 environment:
-  sdk: ">=3.0.2 <4.0.0"
+  sdk: ">=3.0.5 <4.0.0"
 
 dependencies:
-  http: ^1.0.0
+  http: ^1.1.0
 
 dev_dependencies:
   flutter_test:
