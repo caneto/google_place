@@ -3,13 +3,13 @@ description: A new Flutter project.
 version: 1.0.0+2
 
 environment:
-  sdk: ">=3.0.5 <4.0.0"
+  sdk: ">=3.1.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.5
-  flutter_dotenv: ^5.0.2
+  cupertino_icons: ^1.0.6
+  flutter_dotenv: ^5.1.0
   google_places:
     path: ../
 
